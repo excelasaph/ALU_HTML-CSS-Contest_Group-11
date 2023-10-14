@@ -46,3 +46,84 @@ function selectItem(e) {
     // Add show class
     tabContentItem.classList.add('show')
 }
+
+// Listen for tab click
+tabItems.forEach(Item => Item.addEventListener("click", selectItem))
+
+navItems.forEach(Item => Item.addEventListener("click", selectNav))
+
+eventClick.addEventListener("click", function() {
+    eventRedirect.click()
+})
+
+eventRedirect.addEventListener('click', function() {
+    // does nothing
+})
+
+eventFooterClick.addEventListener("click", function () {
+    eventClick.click()
+})
+
+contactClick.addEventListener("click", function () {
+    contactRedirect.click()
+})
+
+contactRedirect.addEventListener("click", function() {
+    // does nothing
+})
+
+contactFooterClick.addEventListener("click", function () {
+    contactClick.click()
+})
+
+aboutClick.addEventListener("click", function () {
+    aboutRedirect.click()
+})
+
+aboutRedirect.addEventListener("click", function() {
+    // does nothing
+})
+
+aboutFooterClick.addEventListener("click", function () {
+    aboutClick.click()
+})
+
+
+eventRequest.addEventListener('click', function() {
+    eventResponse.click()
+})
+
+eventResponse.addEventListener('click', function() {
+    // empty
+})
+
+contactRequest.addEventListener('click', function() {
+    contactResponse.click()
+})
+
+contactResponse.addEventListener('click', function() {
+    // empty
+})
+
+aboutRequest.addEventListener('click', function() {
+    aboutResponse.click()
+})
+
+aboutResponse.addEventListener('click', function() {
+    // empty
+})
+
+
+
+// Form-script
+
+const labels = document.querySelectorAll('.form-control label')
+
+
+
+labels.forEach(label => {
+    label.innerHTML = label.innerText
+        .split('')
+        .map((letter, idx) => <span style="transition-delay:${idx * 50}ms">${letter}</span>)
+        .join('')
+})
