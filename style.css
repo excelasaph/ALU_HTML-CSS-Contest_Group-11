@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #e50914;
+    --dark-color: #141414;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    --webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background-image: url('./img/alumni-network-7.JPG');
+    background-position: center center/cover;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.6);
+    z-index: 1;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.showcase-top {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}
+
+.showcase-top img {
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-top .nav-top {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.showcase-top a {
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-left: 0.3rem;
+}
+
+.showcase-top a:hover {
+    color: #999;
+    transition: color 0.4s ease;
+}
+
+.nav-border {
+    border-bottom: 4px solid #e50914;
+}
+
+.showcase-content {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+    z-index: 2;
+}
+
+.showcase-content h1 {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem 0;
+}
+
+.showcase-content p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem 0;
+}
