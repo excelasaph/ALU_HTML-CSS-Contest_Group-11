@@ -38,16 +38,16 @@ These instructions will help you set up and run the project locally on your mach
 
 ### Installation
 
-    ```bash
-    # Clone the repository
-    git clone https://github.com/maxprodigy/ALU_HTML-CSS-Contest_Group-11.git
+  ```bash
+  # Clone the repository
+  git clone https://github.com/maxprodigy/ALU_HTML-CSS-Contest_Group-11.git
 
-    # Change directory to the project folder (if any)
-    cd nevents-alumni-connect
+  # Change directory to the project folder (if any)
+  cd nevents-alumni-connect
 
-    # Install dependencies (if any)
-    npm install
-    ```
+  # Install dependencies (if any)
+  npm install
+  ```
 
 ### Usage
 
@@ -85,7 +85,5 @@ I'm yet to use any third-party libraries, assets, or tools in this project. I wi
 ## Contact
 
 If you have any questions, feedback, or collaboration requests, please feel free to reach out to us at [e.adewusi@alustudent.com](mailto:e.adewusi@alustudent.com).
-
-```
 
 ```
