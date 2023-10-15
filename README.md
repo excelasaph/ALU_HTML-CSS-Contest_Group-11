@@ -85,5 +85,3 @@ I'm yet to use any third-party libraries, assets, or tools in this project. I wi
 ## Contact
 
 If you have any questions, feedback, or collaboration requests, please feel free to reach out to us at [e.adewusi@alustudent.com](mailto:e.adewusi@alustudent.com).
-
-```
