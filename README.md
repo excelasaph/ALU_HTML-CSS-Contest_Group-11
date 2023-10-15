@@ -80,9 +80,13 @@ This project will be licensed under the MIT License - see the [LICENSE](LICENSE)
 
 ## Acknowledgments
 
+Below are the list of resources we used in our site.
+
 - [ALU Website](https://www.alueducation.com/)
 - [ALU Events Calendar](https://www.alueducation.com/events-calendar/)
 - [Project Rubric Document](./img/front-end_web_assignment_rubric.pdf)
+- [Canva](https://www.canva.com) for the Logo(s)
+- [Font Awesome](https://fontawesome.com/) for the Tab Icons
 
 ## Contact
 
