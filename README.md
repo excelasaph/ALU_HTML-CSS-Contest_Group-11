@@ -6,7 +6,7 @@ Our team was tasked with developing and designing a website showcasing the basic
 
 Nevents is a web application designed to connect alumni with exciting events and opportunities within the African Leadership University (ALU) community. This README provides an overview of the project, its features, setup instructions, and how to use it.
 
-![Nevents Landing Page](/img/screenshot.png)
+![Nevents Landing Page](./img/Nevents.png)
 
 ## Table of Contents
 
