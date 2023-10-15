@@ -81,6 +81,7 @@ This project will be licensed under the MIT License - see the [LICENSE](LICENSE)
 ## Acknowledgments
 
 - ![ALU Website](https://www.alueducation.com/)
+- ![ALU Events Calendar](https://www.alueducation.com/events-calendar/)
 
 ## Contact
 
