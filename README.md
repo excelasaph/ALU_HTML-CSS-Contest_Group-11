@@ -20,6 +20,7 @@ Nevents is a web application designed to connect alumni with exciting events and
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
+- [Website Preview](#website-preview)
 
 ## Features
 
@@ -91,3 +92,9 @@ Below are the list of resources we used in our site.
 ## Contact
 
 If you have any questions, feedback, or collaboration requests, please feel free to reach out to us at [e.adewusi@alustudent.com](mailto:e.adewusi@alustudent.com).
+
+## Website Preview
+
+Click [Here](https://eadewusic.github.io/Nevents/) or view image below;
+
+![Nevents Preview](./img/Nevents-full-page.png)
